@@ -1,0 +1,26 @@
+.svg-animation-container{
+    width: 800px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+    padding: 24px;
+    margin: 0 auto;
+    border-radius: 20%;
+    height: 800px;
+}
+
+.svg-animation-container svg{
+    width: 100%;
+}
+
+#girlbody{
+    animation: girlmove 3s infinite alternate;
+    transform-origin: top left;
+    transform-box: fill-box;
+}
+@keyframes girlmove{
+    0%{
+        transform: rotate(5deg);
+    }
+    50%{
+        transform: rotate(-5deg);
+    }
+}
